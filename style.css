@@ -78,7 +78,7 @@ body{
 #milk-bottles-img{
     background: url('./images/mobile/image-gallery-milkbottles.jpg') no-repeat;
     background-size: cover;
-    height: 35vh; /*200px*/
+    height: 40vh; /*200px*/
     width: 50%;
     background-position: center;
 }
@@ -86,7 +86,7 @@ body{
 #orange-img{
     background: url('./images/mobile/image-gallery-orange.jpg') no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 40vh;
     width: 50%;
     background-position: center;
 }
@@ -94,7 +94,7 @@ body{
 #cone-img{
     background: url('./images/mobile/image-gallery-cone.jpg') no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 40vh;
     width: 50%;
     background-position: center;
 }
@@ -102,7 +102,7 @@ body{
 #sugar-cubes-img{
     background: url('./images/mobile/image-gallery-sugar-cubes.jpg') no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 40vh;
     width: 50%;
     background-position: center;
 }
