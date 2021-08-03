@@ -45,40 +45,40 @@ body{
 #main-header{
     background: url('./images/mobile/image-header.jpg');
     background-size: cover;
-    height: 61.5vh; /*500px*/
+    height: 100vh; /*500px*/
     background-position: center;
 }
 
 #transform-container-img{
     background: url('./images/mobile/image-transform.jpg') no-repeat;
     background-size: cover;
-    height: 37vh; /*300px*/
+    height: 50vh; /*300px*/
     background-position: center;
 }
 
 #stand-out-container-img{
     background: url('./images/mobile/image-stand-out.jpg') no-repeat;
     background-size: cover;
-    height: 37vh;
+    height: 50vh;
     background-position: center;
 }
 
 #graphic-design-container{
     background: url('./images/mobile/image-graphic-design.jpg') no-repeat;
     background-size: cover;
-    height: 73.9vh; /*600px*/
+    height: 100vh; /*600px*/
 }
 
 #photography-container{
     background: url('./images/mobile/image-photography.jpg') no-repeat;
     background-size: cover;
-    height: 73.9vh;
+    height: 100vh;
 }
 
 #milk-bottles-img{
     background: url('./images/mobile/image-gallery-milkbottles.jpg') no-repeat;
     background-size: cover;
-    height: 24.6vh; /*200px*/
+    height: 35vh; /*200px*/
     width: 50%;
     background-position: center;
 }
@@ -86,7 +86,7 @@ body{
 #orange-img{
     background: url('./images/mobile/image-gallery-orange.jpg') no-repeat;
     background-size: cover;
-    height: 24.6vh;
+    height: 35vh;
     width: 50%;
     background-position: center;
 }
@@ -94,7 +94,7 @@ body{
 #cone-img{
     background: url('./images/mobile/image-gallery-cone.jpg') no-repeat;
     background-size: cover;
-    height: 24.6vh;
+    height: 35vh;
     width: 50%;
     background-position: center;
 }
@@ -102,7 +102,7 @@ body{
 #sugar-cubes-img{
     background: url('./images/mobile/image-gallery-sugar-cubes.jpg') no-repeat;
     background-size: cover;
-    height: 24.6vh;
+    height: 35vh;
     width: 50%;
     background-position: center;
 }
@@ -292,6 +292,7 @@ body{
     font-size: 1.125rem;
     margin-bottom: 8%;
     margin-top: 8%;
+    height: 50vh;
     
 }
 
