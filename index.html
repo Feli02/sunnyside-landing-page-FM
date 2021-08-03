@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <div id="nav-container">
+      <div id="logo-burger-mobile-container">
+        <img class="logo-header" src="./images/logo.svg" alt="logo">
+
+        <button id="btn-burger-menu" onclick="displayBurger()"><div class="bodymovinanim"></div></button>
+      </div>
+      <div id="nav-links">
+        <ul id="list-nav-links">
+          <li class="list-nav" id="about-link"><a class="link-nav" href="#">About</a></li>
+          <li class="list-nav" id="services-link"><a class="link-nav" href="#">Services</a></li>
+          <li class="list-nav" id="projects-link"><a class="link-nav" href="#">Projects</a></li>
+          <li class="list-nav" id="contact-link"><button id="btn-contact"><a class="link-nav" id="link-contact-btn" href="#">Contact</a></button></li>
+        </ul>
+      </div>
+    </div>
+
+    <h1 id="main-title">We are creatives</h1>
+    <div id="arrow-container">
+      <img class="arrow-down" src="./images/icon-arrow-down.svg" alt="">
+    </div>
+  </header>
+
+
+  <main>
+    <section id="main-transform-container">
+      <article id="transform-container-info">
+        <h1 class="title-transform-standOut">Transform your brand</h1>
+        <p class="info-transform-standOut">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#" class="link-transform-standOut" id="link-transform">Learn more</a>
+        <div id="underline-transform" class="underline"></div>
+      </article>
+
+      <article id="transform-container-img"></article>
+    </section>
+
+
+    <section id="main-stand-out-container">
+      <article id="stand-out-container-img"></article>
+
+      <article id="stand-out-container-info">
+        <h1 class="title-transform-standOut">Stand out to the right audience</h1>
+        <p class="info-transform-standOut">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </p>
+        <a href="#" class="link-transform-standOut" id="link-standOut">Learn more</a>
+        <div id="underline-stand-out" class="underline"></div>
+      </article>
+    </section>
+
+    <section id="main-container-graphic-design-photography">
+      <article id="graphic-design-container">
+        <div class="secondary-container-design-photography">
+          <h1 class="title-design-photography" id="title-graphic-design">Graphic design</h1>
+          <p id="info-graphic-design" class="info-design-photography">
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          </p>
+        </div>
+      </article>
+
+      <article id="photography-container">
+        <div class="secondary-container-design-photography">
+          <h1 class="title-design-photography" id="title-photography">Photography</h1>
+          <p id="info-photography-design" class="info-design-photography">
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="section-client-testimonials">
+      <h1 id="title-client-testimonials">Client testimonials</h1>
+      <div id="main-client-testimonial-container">
+        <article class="client-container">
+          <img class="image-client" src="./images/image-emily.jpg" alt="image-emily">
+          <p class="client-testimonial">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="name-client-testimonial">Emily R.</p>
+          <p class="job-client">Marketing Director</p>
+        </article>
+
+        <article class="client-container">
+          <img class="image-client" src="./images/image-thomas.jpg" alt="image-thomas">
+          <p class="client-testimonial">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <p class="name-client-testimonial">Thomas S.</p>
+          <p class="job-client">Chief Operating Officer</p>
+        </article>
+
+        <article class="client-container">
+          <img class="image-client" src="./images/image-jennie.jpg" alt="image-jennie">
+          <p class="client-testimonial">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="name-client-testimonial">Jennie F.</p>
+          <p class="job-client">Business Owner</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="four-images-section">
+      <article class="two-images-container">
+        <div id="milk-bottles-img"></div>
+        <div id="orange-img"></div>
+      </article>
+
+      <article class="two-images-container">
+        <div id="cone-img"></div>
+        <div id="sugar-cubes-img"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <h2 class="logo-text">sunnyside</h2>
+    <div id="footer-links-container">
+      <ul id="list-links">
+        <li class="item-link-footer"><a class="link-footer" href="#">About</a></li>
+        <li class="item-link-footer"><a class="link-footer" href="#">Services</a></li>
+        <li class="item-link-footer"><a class="link-footer" href="#">Projects</a></li>
+      </ul>
+    </div>
+
+    <div id="social-media-container">
+      <ul id="social-media-list">
+        <li class="social-media-item"><img src="./images/icon-facebook.svg" alt="social-link-fb"></li>
+        <li class="social-media-item"><img src="./images/icon-instagram.svg" alt="social-link-ig"></li>
+        <li class="social-media-item"><img src="./images/icon-twitter.svg" alt="social-link-tw"></li>
+        <li class="social-media-item"><img src="./images/icon-pinterest.svg" alt="social-link-pin"></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="./js/burger.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+<script src="./js/lottie.js"> </script>
+</html>

@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --soft-red-primary: hsl(7, 99%, 70%);
+    --yellow-primary: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan-graphic-design-text-primary: hsl(167, 40%, 24%);
+    --dark-blue-photography-text-primary: hsl(198, 62%, 26%);
+    --dark-moderate-cyan-footer-primary: hsl(168, 34%, 41%);
+    --bg-footer: hsl(168, 34%, 60%);
+
+    --very-dark-desaturated-blue-neutral: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue-neutral: hsl(213, 9%, 39%);
+    --dark-grayish-blue-neutral: hsl(232, 10%, 55%);
+    --grayish-blue-neutral: hsl(210, 4%, 67%);
+    --white-neutral: hsl(0, 0%, 100%);
+
+    --font-barlow: 'Barlow', sans-serif; /*fw: 400, 500, 600*/
+    --font-fraunces: 'Fraunces', serif; /*fw: 700, 900*/
+}
+
+body{
+    font-family: var(--font-barlow);
+}
+
+#btn-contact, 
+#main-title, 
+.title-transform-standOut, 
+.link-transform-standOut, 
+.title-design-photography,
+#title-client-testimonials,
+.name-client-testimonial{
+    font-family: var(--font-fraunces);
+}
+
+#main-transform-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+#main-header{
+    background: url('./images/mobile/image-header.jpg');
+    background-size: cover;
+    height: 61.5vh; /*500px*/
+    background-position: center;
+}
+
+#transform-container-img{
+    background: url('./images/mobile/image-transform.jpg') no-repeat;
+    background-size: cover;
+    height: 37vh; /*300px*/
+    background-position: center;
+}
+
+#stand-out-container-img{
+    background: url('./images/mobile/image-stand-out.jpg') no-repeat;
+    background-size: cover;
+    height: 37vh;
+    background-position: center;
+}
+
+#graphic-design-container{
+    background: url('./images/mobile/image-graphic-design.jpg') no-repeat;
+    background-size: cover;
+    height: 73.9vh; /*600px*/
+}
+
+#photography-container{
+    background: url('./images/mobile/image-photography.jpg') no-repeat;
+    background-size: cover;
+    height: 73.9vh;
+}
+
+#milk-bottles-img{
+    background: url('./images/mobile/image-gallery-milkbottles.jpg') no-repeat;
+    background-size: cover;
+    height: 24.6vh; /*200px*/
+    width: 50%;
+    background-position: center;
+}
+
+#orange-img{
+    background: url('./images/mobile/image-gallery-orange.jpg') no-repeat;
+    background-size: cover;
+    height: 24.6vh;
+    width: 50%;
+    background-position: center;
+}
+
+#cone-img{
+    background: url('./images/mobile/image-gallery-cone.jpg') no-repeat;
+    background-size: cover;
+    height: 24.6vh;
+    width: 50%;
+    background-position: center;
+}
+
+#sugar-cubes-img{
+    background: url('./images/mobile/image-gallery-sugar-cubes.jpg') no-repeat;
+    background-size: cover;
+    height: 24.6vh;
+    width: 50%;
+    background-position: center;
+}
+
+.two-images-container {
+    display: flex;
+}
+
+
+
+#main-title {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-top: 20%;
+}
+
+#arrow-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#logo-burger-mobile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 5%;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+#btn-burger-menu {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 12%;
+}
+
+.list-nav{
+    list-style: none;
+    margin-bottom: 12%;
+    font-weight: 600;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: var(--very-dark-grayish-blue-neutral);
+    font-size: 1.125rem;
+}
+
+#contact-link{
+    margin-bottom: 0;
+}
+
+#btn-contact {
+    height: 5.4vh;
+    width: 45%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: var(--yellow-primary);
+}
+
+#link-contact-btn{
+    text-transform: uppercase;
+    color: var(--very-dark-desaturated-blue-neutral);
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+
+
+
+#main-footer{
+    background: var(--bg-footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-links-container, #social-media-container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+#social-media-container {
+    width: 50%;
+}
+
+#list-links, #social-media-list{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#list-links .item-link-footer, #social-media-list .social-media-item{
+    list-style: none;
+}
+
+.link-footer{
+    color: var(--dark-moderate-cyan-footer-primary);
+    text-decoration: none;
+}
+
+.logo-text{
+    color: var(--dark-desaturated-cyan-graphic-design-text-primary);
+    font-weight: 900;
+    letter-spacing: 0.06rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.bodymovinanim path {
+    stroke: #fff;
+}
+
+
+
+#section-client-testimonials {
+    padding: 15% 8%;
+}
+
+.image-client {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 7%;
+    margin-top: 25%;
+}
+
+#main-client-testimonial-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-testimonial, #title-client-testimonials {
+    text-align: center;
+}
+
+#title-client-testimonials {
+    color: var(--grayish-blue-neutral);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+}
+
+.job-client{
+    color: var(--grayish-blue-neutral);
+    font-weight: 500;
+}
+
+.name-client-testimonial {
+    margin-bottom: 2%;
+    font-weight: 900;
+    font-size: 1.07rem;
+}
+
+.client-testimonial {
+    margin-bottom: 7%;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--very-dark-grayish-blue-neutral);
+}
+
+
+
+.title-transform-standOut {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: var(--very-dark-desaturated-blue-neutral);
+}
+
+.info-transform-standOut{
+    color: var(--very-dark-grayish-blue-neutral);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    
+}
+
+.link-transform-standOut{
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--very-dark-desaturated-blue-neutral);
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+}
+
+#transform-container-info, #stand-out-container-info {
+    padding: 15% 10%;
+    display: flex;
+    flex-direction: column;
+    height: 49vh;
+}
+
+.underline{
+    height: 10px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 4%;
+    opacity: 30%;
+    bottom: 3%;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#underline-transform {
+    background: var(--yellow-primary);
+}
+
+#underline-stand-out{
+    background: var(--soft-red-primary);
+}
+
+#photography-container,
+#graphic-design-container{
+    position: relative;
+}
+
+.secondary-container-design-photography{
+    position: absolute;
+    bottom: 8%;
+    padding: 5%
+}
+
+.title-design-photography {
+    margin-bottom: 8%;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.info-design-photography{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+}
+
+#info-photography-design, #title-photography{
+    color: var(--dark-blue-photography-text-primary);
+}
+
+#info-graphic-design, #title-graphic-design{
+    color: var(--dark-desaturated-cyan-graphic-design-text-primary);
+}
+
+.info-design-photography, .title-design-photography{
+    text-align: center;
+}
+
+
+.logo-header {
+    width: 40%;
+    height: 40%;
+}
+
+
+@media screen and (max-width: 600px){
+    #list-nav-links{
+        width: 85%;
+        position: absolute;
+        padding: 10%;
+        box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
+        border-radius: 3px;
+        background: white;
+        left: 0;
+        right: 0;
+        top: 13%;
+        margin: auto;
+        height: fit-content;
+        text-align: center;
+        opacity: 0;
+    }
+
+    #list-nav-links:after {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0%;
+        content: '';
+        transform: rotate(270deg);
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-bottom: 32px solid white;
+        right: -16px;
+    }
+
+    .inactive{
+        animation: opacityAnimOut 0.5s;
+        transition: all 0.6s;
+        transition-delay: 0.4s;
+        animation-delay: 0.4s;
+    }
+
+    .active{
+        animation: opacityAnimIn 0.5s;
+        transition: all 0.6s;
+        transition-delay: 0.4s;
+        animation-delay: 0.4s;
+        opacity: 1;
+    }
+
+    @keyframes opacityAnimIn {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    @keyframes opacityAnimOut {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+
+    @keyframes heightAnim{
+        0%{
+            height: 0;
+        }
+        100%{
+            height: 160px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px){
+    #btn-burger-menu{
+        display: none;
+    }
+
+    #main-title{
+        font-size: 3rem;
+    }
+
+    #logo-burger-mobile-container{
+        padding: 0;
+        width: 28%;
+    }
+
+    #nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10% 5%;
+        padding-bottom: 0;
+    }
+
+    .logo-header {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #nav-links {
+        width: 60%;
+    }
+
+    #list-nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .list-nav {
+        margin-bottom: 0%;
+        margin-left: 5%;
+    }
+
+    #btn-contact {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #link-contact-btn {
+        font-size: 1.2rem;
+    }
+
+    .link-nav {
+        font-size: 1.4rem;
+    }
+
+
+
+    #main-header{
+        height: 75vh;
+    }
+
+    #transform-container-img, #stand-out-container-img, #transform-container-info, #stand-out-container-info{
+        height: 55vh;
+    }
+    #graphic-design-container, #photography-container{
+        height: 100vh;
+    }
+
+
+
+    .info-transform-standOut, .info-design-photography, .title-design-photography {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .title-transform-standOut {
+        font-size: 2.5rem;
+    }
+
+    .link-transform-standOut {
+        font-size: 1.2rem;
+    }
+    
+    .title-design-photography {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #nav-container {
+        padding: 3% 2%;
+    }
+    #logo-burger-mobile-container {
+        width: 20%;
+    }
+    #list-nav-links {
+        height: 100%;
+    }
+    #contact-link {
+        height: 100%;
+    }
+    #btn-contact {       
+        height: 100%;
+    }
+
+    #main-title, #arrow-container {
+        margin-top: 5%;
+    }
+    #main-transform-container {
+        flex-direction: row;
+    }
+    #transform-container-info, #stand-out-container-info {
+        padding: 5% 10%;
+        width: 50%;
+    }
+    #transform-container-img, #stand-out-container-img, #transform-container-info, #stand-out-container-info {
+        height: 65vh;
+    }
+    #main-stand-out-container {
+        display: flex;
+    }
+    #main-container-graphic-design-photography {
+        display: flex;
+    }
+    #transform-container-info, #stand-out-container-info {
+        padding: 5% 10%;
+        width: 50vw;
+        height: 85vh;
+    }
+    .link-transform-standOut, .info-transform-standOut, .title-transform-standOut{
+        text-align: left;
+    }
+
+    main{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .underline {
+        height: 3%;
+        width: 45%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 4%;
+        opacity: 30%;
+        right: 31%;
+        bottom: 10%;
+        border-radius: 15px;
+        z-index: -1;
+    }
+
+    .title-design-photography{
+        font-size: 2rem;
+    }
+
+    .info-design-photography {
+        font-size: 1.125rem;
+    }
+
+    #main-client-testimonial-container {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .image-client {
+        width: 35%;
+        margin-bottom: 7%;
+        margin-top: 0%;
+    }
+
+
+    #main-header{
+        background: url('./images/desktop/image-header.jpg');
+        background-size: cover;
+        height: 100vh; 
+        background-position: center;
+    }
+    
+    #transform-container-img{
+        background: url('./images/desktop/image-transform.jpg') no-repeat;
+        height: unset;
+        width: 50vw;
+        height: 85vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #stand-out-container-img{
+        background: url('./images/desktop/image-stand-out.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50vw;
+        height: 85vh;
+    }
+    
+    #graphic-design-container{
+        background: url('./images/desktop/image-graphic-design.jpg') no-repeat;
+        background-size: cover;
+        width: 50vw;
+        height: 95vh;
+    }
+    
+    #photography-container{
+        background: url('./images/desktop/image-photography.jpg') no-repeat;
+        background-size: cover;
+        width: 50vw;
+        height: 95vh;
+    }
+    
+    #milk-bottles-img{
+        background: url('./images/desktop/image-gallery-milkbottles.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 25vw;
+    }
+    
+    #orange-img{
+        background: url('./images/desktop/image-gallery-orange.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 25vw;
+    }
+    
+    #cone-img{
+        background: url('./images/desktop/image-gallery-cone.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 25vw;
+    }
+    
+    #sugar-cubes-img{
+        background: url('./images/desktop/image-gallery-sugarcubes.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 25vw;
+    }
+    #four-images-section{
+        display: flex;
+    }
+    #four-images-section div {
+        height: 60vh;
+    }
+    #list-links, #social-media-list {
+        display: flex;
+        width: 50%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .logo-text {
+        font-weight: 900;
+        letter-spacing: 0.06rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+    #footer-links-container, #social-media-container {
+        margin-bottom: 5%;
+    }
+
+}
