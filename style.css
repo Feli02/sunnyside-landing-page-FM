@@ -715,8 +715,9 @@ body{
 }
 .link-transform-standOut{
     width: fit-content;
+    position:relative;
 }
-.link-transform-standOut.link-yellow{
+.link-transform-standOut.link-yellow::after{
     content: "";
     position: absolute;
     top: 0;
@@ -729,7 +730,7 @@ body{
     border-radius: 50px;
     background-color: var(--yellow-primary);
 }
-.link-transform-standOut.link-red{
+.link-transform-standOut.link-red::after{
     content: "";
     position: absolute;
     top: 0;
